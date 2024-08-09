@@ -1,0 +1,465 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact a {
+    background-color: white;
+    color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.buttons .btn {
+    background-color: white;
+    color: #007BFF;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.colleges {
+    background-color: #F7F7F7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.colleges h2 {
+    margin-bottom: 40px;
+}
+
+.college-logos img {
+    height: 100px;
+    
+    margin: 0 20px;
+}
+.company-logos img{
+    height: 50px;
+    width: 120px;
+    margin: 0 20px;
+}
+
+.internships {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.internships h2 {
+    margin-bottom: 20px;
+}
+.care-tag {
+    font-size: 1em;
+    background: #09cc7f;
+    padding: 10px 20px;
+    border-radius: 20px 0 20px 0;
+}
+
+/* footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+} */
+.section h2{
+    font-size: 41px;
+}
+.courses {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    max-height: 3000px;
+    height: 100%;
+    width: 100%;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.course-card {
+    background-color: rgb(239, 241, 241);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.course-card img {
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.course-card h3 {
+    margin-bottom: 15px;
+}
+
+.course-card p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.course-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course-card button:hover {
+    background-color: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.footer {
+    background-color: #c5cbd1;
+    padding: 50px 0;
+    color: #333;
+    border-top: 1px solid #e7e7e7;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.browse section h2{
+    text-align: center;
+}
+
+.footer-logo {
+    flex: 1;
+    max-width: 250px;
+}
+
+.footer-logo img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-column {
+    flex: 1;
+    max-width: 200px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    color: #007bff;
+}
+
+.newsletter-form {
+    display: flex;
+    margin-top: 15px;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 70%;
+    font-size: 14px;
+}
+
+.newsletter-form button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    font-size: 18px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #e7e7e7;
+    margin-top: 30px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #666;
+}
+
+.footer-bottom a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+
+.hero-section {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.hero-section h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.hero-section p {
+    font-family: "Muli", sans-serif;
+    color: #10285d;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+
+.hero-section img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-section .btn-primary {
+    /* background-color: #007bff; */
+    /* border-color: #007bff; */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.hero-section .btn-primary:hover {
+    /* background-color: #0056b3; */
+    border-color: #0056b3;
+}
+
+.text-center h2{
+    font-size: 42px;
+    display: block;
+    font-weight: 600;
+    text-transform: capitalize; 
+    line-height: 1.4;
+    /* font-size: 41px;
+    font-weight: bold; */
+}
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.interns-section {
+    padding: 40px 0;
+}
+
+.intern-card {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.intern-card:hover {
+    transform: translateY(-10px);
+}
+
+.intern-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0d0e0d;
+}
+
+.intern-card p {
+    font-size: 1rem;
+    color: #343535;
+}
+
+.job-card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+.job-icon {
+    font-size: 50px;
+    color: #007bff;
+}
+.apply-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.apply-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.container-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    border-radius: 25px;
+}
+
+.green-card {
+    background-color: #28a745;
+}
+
+.blue-card {
+    background-color: #007bff;
+}
+
+
+ .section-bg2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.section-bg2 .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-bg2 .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
